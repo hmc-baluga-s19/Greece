@@ -1,0 +1,64 @@
+body {
+    background-color : rgb(251, 252, 249);
+    margin : 0px auto;
+    padding : 0px;
+    font-family : helvetica;
+    height : 1200px;
+}
+
+h1 {
+    border-style : double;
+    text-align : center;
+    font-size : 35px;
+    margin-top : 30px;
+    color : rgb(13, 76, 211);
+    font-family : Papyrus, fantasy;
+}
+
+h2 {
+    margin-left : 45px;
+    font-size : 25px;
+    margin-top : 30px;
+    color : rgb(13, 76, 211);
+    font-family : Apple Chancery, cursive;
+    font-weight : 200;
+}
+
+h3 {
+    color : rgb(224, 150, 21);
+    text-align : center;
+    font-family : cursive;
+    line-height : 225%; 
+    font-weight: 300
+}
+
+h4 {
+    color : black; 
+    margin-left : 45px; 
+    font-family : cursive;
+    line-height : 150%; 
+    font-weight: 300; 
+}
+
+h5 {
+    color : rgb(247, 27, 11); 
+    font-size : 25px; 
+    margin-left : 45px;  
+    font-family : serif;
+    font-weight: 400; 
+}
+
+h6 {
+    margin-left : 25px;
+    font-size : 18px;
+    font-weight : 300;
+    font-family : cursive;
+    line-height : 100%; 
+}
+
+p {
+    text-align : center;
+    font-family : cursive;
+    line-height : 225%; 
+    font-size : 18px;
+}

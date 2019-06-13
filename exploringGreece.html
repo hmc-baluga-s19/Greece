@@ -1,0 +1,148 @@
+<!doctype html>
+
+<html>
+
+    <head>
+
+        <link rel="stylesheet" type="text/css" href="greeceStyle.css">
+
+        <title> Graduation Trip </title>
+
+        <style>
+
+         ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(13, 76, 211);
+            }
+            
+            li {
+                float: left;
+            }
+            
+            li a {
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            li a:hover:not(.active) {
+                background-color: rgb(251, 252, 249);
+            }
+            
+            .active {
+                background-color: rgb(251, 252, 249);
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                padding: 12px 16px;
+                z-index: 1;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            /* Create three equal columns that floats next to each other */
+            .column {
+                float: left;
+                width: 32%;
+                padding: 5px;
+            }
+
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width:600px) {
+                .column {
+                    width: 100%;
+                }
+            }
+
+        </style>
+ 
+    </head>
+
+        <body>
+            
+            <ul>
+                <li><a href="file:///C:/Users/Megan/Desktop/Practice-webpage/Greece/index.html">Home</a></li>
+                <li><a href="file:///C:/Users/Megan/Documents/touristGreece.html">Tourist sites</a></li>
+                <li><a href="file:///C:/Users/Megan/Documents/livingGreece.html">Lodging</a></li>
+                <li><a class="active" href="file:///C:/Users/Megan/Documents/exploringGreece.html">Activities</a></li>            
+            </ul>
+
+            <h1> Exploring Greece </h1>
+
+            <h3> Every island is surrounded by beautiful beaches but if you get sick of the sun here are some
+                great alternatives to lounging around.
+            </h3>
+
+            <div class="row">
+                    <div class="column">
+                        <div class="dropdown">
+                            <span><h2> Wine tasting</h2></span>
+                            <div class="dropdown-content">
+                            <p><a href="https://www.tripadvisor.com/Attractions-g189398-Activities-c36-Greece.html">Explore your options</a></p>
+                            </div>
+                        </div>
+                        <h6> Santorini would be the ideal island to venture into<br> the world of wine. It is very well known for the<br> wineries in town. There
+                            are many varieties of tours<br> offered. Some involve extensive exploration of the<br> wineries and teach you a lot about wine. Others 
+                            are<br> much shorter and more relaxed. Some tours even<br> combine a cooking class with wine tasting. 
+                        </h6>
+
+                        <img src="https://www.bing.com/th?id=OIP.rza1bIFsvzkzH_KQCSmTwQHaEW&pid=Api&rs=1&p=0" height="300" width="450"></img>
+                        <img src="http://www.greece-is.com/wp-content/uploads/2016/03/WINE_PELOPONNESE_VINEYARDS_SKOURAS_FEATURE.jpg" height="300" width="450"></img>
+                    </div>
+                    
+                    <div class="column">
+                        <div class="dropdown">
+                            <span><h2> Air and Helicopter Tours </h2></span>
+                            <div class="dropdown-content">
+                            <p><a href="https://www.tripadvisor.com/Attraction_Products-g189398-zfg11864-Greece.html">Explore your options</a></p>
+                            </div>
+                        </div>
+                        <h6> There are many options for helicopter sightseeing over<br> the islands. This is a great way to fully taken in the<br> beauty that Greece offers.</h6>
+
+                        <img src="http://www.greekairtaxinetwork.com/wp-content/uploads/ncient_greece02.jpg" height="300" width="450"></img>
+                        <img src="https://experitour.com/wp-content/uploads/2017/08/helicopter1-1020x800.jpg" height="300" width="450"></img>
+                    </div>
+                    
+                    <div class="column">
+                        <div class="dropdown">
+                            <span><h2>Sailing and Water Tours</h2></span>
+                            <div class="dropdown-content">
+                            <p><a href="https://www.tripadvisor.com/Attraction_Products-g189398-zfg11865-Greece.html">Explore your options</a></p>
+                            </div>
+                        </div>
+                        <h6> The best part of any place in Greece is the crystal<br> clear water. You can scuba dive into the deep blue and<br> explore 
+                            under the sea and meet some cute new friends.<br> It is also fun to sail on the water and just let the beauty<br> of everything around you sink in.
+                        </h6>
+
+                        <img src="http://gogreeceyourway.gr/wordpress/wp-content/uploads/2011/09/Sailing-in-Zakinthos.jpg" height="300" width="450"></img>
+                        <img src="https://www.medsailors.com/wp-content/uploads/2016/04/medsailors-sailing-greece-agistri-main.jpg" height="300" width="450"></img>
+                    </div>
+                  </div>
+
+        </body>
+
+</html>
